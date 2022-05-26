@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <img src="images1/logo1.png" alt="logo1">
+            <div class="header-text">
+                <h1>Să-ți construiești propria afacere <br> de la început e dificil,
+                     dar e posibil!</h1>
+                     <span class="square"></span>
+                     <p>Dacă ai deja o idee de afacere , ai muncit într-o asemenea afacere sau ai destui bani 
+                        și timp liber pentru a o desfășura, e momentul potrivit să faci următorul pas: un plan de acțiune
+                    complet.</p>
+                    <br>
+                    <p>"Ca să reușești, găsește-ți un drum și ține-te de el." – Andrew Carnegie</p><br>
+                     <p>Pentru a-ți deschide propria afacere e nevoie de asumarea
+                          unor riscuri și de acțiuni în direcția respectivă. 
+                          Multora le este frică de schimbări și provocări, 
+                          preferând stabilitatea. Alții, însă sunt mereu într-o
+                           competiție cu sine, dorind să-și schimbe radical viața,
+                            fiind conștienți într-o măsură mai mare sau mai mică
+                             că vor avea foarte mult de muncit.</p><br>
+                            <p>De ce vrei să-ți deschizi propria afacere? Este prima 
+                                întrebare pe care trebuie să ți-o pui înainte de a începe 
+                                să faci ceva. Mai mulți specialiști în domeniu susțin că
+                                 prin analiza motivelor ce stau la baza creării unei 
+                                 întreprinderi, e posibil în cele mai multe cazuri de 
+                                 previzionat viitorul afacerii respective. 
+                                 Spre exemplu, atunci când o persoană tinde spre 
+                                 independența financiară, dezvoltare personală, 
+                                 auto-realizare, și are dorința fermă de a ajuta oamenii
+                                  din jur prin intermediul afacerii sale, șansele de
+                                   reușită vor fi mai mari.</p><br>
+                                 <p>Pentru ce vrei să-ți deschizi propria afacere? Este o 
+                                     întrebare nu mai puțin importantă la care va trebui să-ți
+                                      răspunzi. Dacă acest lucru se întâmplă doar pentru că ți-a venit
+                                        spontan o astfel de idee , atunci nu e destul. Trebuie să ai obiective
+                                        clar trasate, să ai anumite calități și aptitudini 
+                                        profesionale, să ai o minte analitică, să știi a face
+                                         calcule raționale, să studiezi piața, să-ți cunoști
+                                          concurenții, să știi totul despre cum se obține și mai 
+                                          important, optimizează produsul/serviciul pe care îl 
+                                          oferi. </p><br>
+                    <div class="line">
+                        <span class="line-1"></span><br>
+                        <span class="line-2"></span><br>
+                        <span class="line-3"></span>
+                    </div>
+            </div>
+        </div>
+        <!--Footer-->
+   <section id="footer">
+    <div class="container footer-row">
+        <hr>
+        <div class="footer-left-col">
+            <div class="footer-links">
+                <div class="link-title">
+                    <h4>Product</h4>
+                    <small>Our Plan</small><br>
+                    <small>Free Trial</small>
+                </div>
+                 <div class="link-title">
+                     <h4>About Us</h4>
+                     <small>Request Demo</small><br>
+                     <small>FaQs</small>
+                 </div>
+                 <div class="link-title">
+                     <h4>Support</h4>
+                     <small>Features</small><br>
+                     <small>Contact Us</small>
+                 </div>
+                 <div class="link-title">
+                     <h4>Explore</h4>
+                     <small>Find a nonprofit</small><br>
+                     <small>Coporate Solution</small>
+                 </div>
+            </div>
+        </div>
+        <div class="footer-right-col">
+           <div class="footer-info">
+               <div class="copyright-text" >
+                   <small>support@C&A.com</small><br>
+                   <small>copyright 2022 C&A</small>
+               </div>
+               <div class="footer-logo">
+                   <img src="images1/logo1.png">
+                   <button class="common-btn">Republic of Moldova</button>
+               </div>
+           </div>
+        </div>
+    </div>
+</section>
+
+    <!--social-icons-->
+   <div class="social-icons">
+    <img src="images1/facebook1.png">
+    <img src="images1/instagram1.png">
+    <img src="images1/twitter1.png">
+    <img src="images1/linkedin1.png">
+</div>
+
+ <script>
+     var menuBtn = document.getElementById("menuBtn");
+     var sideNav = document.getElementById("sideNav")
+
+     sideNav.style.right = "-250px";
+     menuBtn.onclick = function(){
+         if(sideNav.style.right == "-250px"){
+             sideNav.style.right = "0";
+         }
+         else{
+             sideNav.style.right = "-250px";
+           }
+     }
+     var scroll = new SmoothScroll('a[href*="#"]', {
+         speed: 1000,
+         speedAsDuration: true
+     });
+
+
+         </script>
+</body>
+</html>

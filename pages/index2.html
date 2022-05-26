@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>document</title>
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+<body>
+    <div class="container course-row">
+        <div class="course-left-col">
+            <img src="images1/logo1.png" alt="logo1"><br>
+            <br>
+            <div class="course-text">
+                <h1>5 pași pentru a începe propria afacere</h1>
+                <span class="square"></span>
+                <p>"Calitatea înseamnă să faci lucrurile cum 
+                 trebuie când nimeni nu se uită." – Henry Ford</p>
+                 <div class="line">
+                     <span class="line-1"></span><br>
+                     <span class="line-2"></span><br>
+                     <span class="line-3"></span>               
+                    </div><br>
+                    <p>1. Ia-ți mai multe responsabilități</p><br>
+                        <p>Este cel mai important pas de la care totul începe
+                        și totul se sfârșește. Nu gândi după formula „ar 
+                        trebui să…”- asta nu înseamnă o responsabilitate.
+                        Trebuie să decizi clar care sunt următoarele 
+                        activități pe care le vei avea și pe care să le începi
+                        chiar de astăzi. Analizează cum îți petreci timpul
+                        acum. Cum trec zilele tale? La ce trebuie să
+                        renunți? Cu siguranță, cea mai mare parte a timpului 
+                        o petreci pe rețelele de socializare, jocuri online și 
+                        alte activități distractive. Trebuie să îți rezervi măcar
+                        câteva ore în graficul tău.</p><br>
+                    <p>Ziua în care vei fi responsabil și nu vei mai căuta
+                        scuze, aceea este ziua startului care te va purta spre
+                        succes. – O. J. Simpson</p><br>
+                    <p>2. Stabilește scopuri în detalii, bine analizate și realistice</p><br>
+                        <p>Probabil nu vrei să începi un drum atât de lung fără să 
+                        stabilești la care destinație vrei să ajungi. Fără idei 
+                        inteligente nu ajungi undeva. Fă-ți un plan pentru o zi,
+                        o săptămână, o lună sau un an. Asta te va ajuta să deții
+                        controlul asupra procesului.</p><br>
+                    <p>3. Verifică-ți ideea de afacere</p><br>
+                       <p>Multe persoane talentate sunt sigure că pot și știu să 
+                        facă totul. Însă regulile businessului și ale pieței nu
+                        au fost anulate. Verifică dacă cineva va avea nevoie de
+                        serviciile tale.Înainte de a lansa o afacere, pune-te în
+                        locul clientului și întreabă-te: De ce aș cheltui banii 
+                        pe așa ceva?</p><br>
+                    <p>4. Apelează la profesioniști</p><br>
+                        <p>Un antreprenor nu este și nu trebuie să fie un om –
+                        orchestră: nu ai cum să fii expert în toate și nici nu
+                        trebuie să îți propui, așa că învață să lucrezi cu
+                        profesioniști în acele domenii pe care nu le stăpânești:
+                        contabilitate, juridic, marketing, consultanta în afaceri
+                        etc.</p><br>
+                    <p>5.Dă dovadă de profesionalism de la început</p><br>
+                        <p>Tu, în calitate de antreprenor ești cel mai bun agent de
+                        marketing pentru afacerea ta, așa că tot ceea ce faci și 
+                        comunici trebuie să inspire profesionalism. Asta înseamna
+                        că totul, de la îmbrăcăminte și atitudine, la cărți de
+                        vizită și comportament ,trebuie să fie impecabil și să
+                        ofere încredere potențialilor clienți și colaboratori.</p><br>
+            </div>
+        </div>
+        <div class="course-right-col">
+            <img src="images1/course1.png">
+
+        </div>
+    </div>
+    <!--Footer-->
+   <section id="footer">
+    <div class="container footer-row">
+        <hr>
+        <div class="footer-left-col">
+            <div class="footer-links">
+                <div class="link-title">
+                    <h4>Product</h4>
+                    <small>Our Plan</small><br>
+                    <small>Free Trial</small>
+                </div>
+                 <div class="link-title">
+                     <h4>About Us</h4>
+                     <small>Request Demo</small><br>
+                     <small>FaQs</small>
+                 </div>
+                 <div class="link-title">
+                     <h4>Support</h4>
+                     <small>Features</small><br>
+                     <small>Contact Us</small>
+                 </div>
+                 <div class="link-title">
+                     <h4>Explore</h4>
+                     <small>Find a nonprofit</small><br>
+                     <small>Coporate Solution</small>
+                 </div>
+            </div>
+        </div>
+        <div class="footer-right-col">
+           <div class="footer-info">
+               <div class="copyright-text" >
+                   <small>support@C&A.com</small><br>
+                   <small>copyright 2022 C&A</small>
+               </div>
+               <div class="footer-logo">
+                   <img src="images1/logo1.png">
+                   <button class="common-btn">Republic of Moldova</button>
+               </div>
+           </div>
+        </div>
+    </div>
+</section>
+
+    <!--social-icons-->
+   <div class="social-icons">
+    <img src="images1/facebook1.png">
+    <img src="images1/instagram1.png">
+    <img src="images1/twitter1.png">
+    <img src="images1/linkedin1.png">
+</div>
+
+ <script>
+     var menuBtn = document.getElementById("menuBtn");
+     var sideNav = document.getElementById("sideNav")
+
+     sideNav.style.right = "-250px";
+     menuBtn.onclick = function(){
+         if(sideNav.style.right == "-250px"){
+             sideNav.style.right = "0";
+         }
+         else{
+             sideNav.style.right = "-250px";
+           }
+     }
+     var scroll = new SmoothScroll('a[href*="#"]', {
+         speed: 1000,
+         speedAsDuration: true
+     });
+
+
+         </script>
+    
+</body>
+</html>
